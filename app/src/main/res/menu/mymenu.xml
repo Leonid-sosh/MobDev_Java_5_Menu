@@ -9,27 +9,30 @@
         android:id="@+id/menu_edit"
         android:title="edit">
     </item>
-    <item
-        android:id="@+id/menu_delete"
-        android:orderInCategory="3"
-        android:title="delete">
-    </item>
     <group
-        android:id="@+id/group1">
+        android:id="@+id/group"
+        android:visible="false">
         <item
             android:id="@+id/menu_copy"
-            android:orderInCategory="1"
+            android:orderInCategory="2"
             android:title="copy">
         </item>
         <item
             android:id="@+id/menu_paste"
-            android:orderInCategory="2"
+            android:orderInCategory="1"
             android:title="paste">
         </item>
         <item
-            android:id="@+id/menu_exit"
-            android:orderInCategory="4"
-            android:title="exit">
+            android:id="@+id/menu_delete"
+            android:orderInCategory="3"
+            android:title="delete">
         </item>
+
     </group>
+    <item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="4"
+        android:title="exit">
+    </item>
+
 </menu>
