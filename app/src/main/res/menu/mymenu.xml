@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
@@ -9,9 +8,27 @@
         android:id="@+id/menu_edit"
         android:title="edit">
     </item>
+
+    <item
+        android:id="@+id/menu_add1"
+        android:title="add">
+    </item>
+    <item
+        android:id="@+id/menu_edit1"
+        android:title="edit">
+    </item>
+
+    <item
+        android:id="@+id/menu_add2"
+        android:title="add">
+    </item>
+    <item
+        android:id="@+id/menu_edit2"
+        android:title="edit">
+    </item>
+
     <group
-        android:id="@+id/group"
-        android:visible="false">
+        android:id="@+id/group">
         <item
             android:id="@+id/menu_copy"
             android:orderInCategory="2"
